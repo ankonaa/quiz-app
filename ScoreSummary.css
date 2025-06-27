@@ -1,0 +1,49 @@
+.score-summary {
+  margin-top: 80px;
+  max-width: 500px;
+  margin: auto;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #fff0f6;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  .score-summary {
+  padding-top: 80px; 
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.score-summary h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.score-summary p {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.score-summary h3 {
+  margin-top: 16px;
+  color: #d6336c;
+}
+
+.score-summary button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.score-summary button:hover {
+  background-color: #a61e4d;
+}
+main {
+  padding-top: 80px;
+}

@@ -1,0 +1,36 @@
+.player-form-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #f1f8ff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.player-form-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.player-form-container input,
+.player-form-container select,
+.player-form-container button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.7rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.player-form-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.player-form-container button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
